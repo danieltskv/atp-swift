@@ -1,0 +1,169 @@
+ [
+  {
+  "name": "New York Trip",
+  "overview": "New York in one day",
+  "visibility": "private",
+  "destination": {
+  "name": "New York",
+  "country": "USA",
+  "city": "New York",
+  "image_url": "https://media.timeout.com/images/101484105/image.jpg"
+  },
+  "pois": [
+           {
+           "name": "Wall Street",
+           "location": {
+           "lat": 40.7072382,
+           "lon": -74.0108478
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832333931323833.jpg"
+           },
+           {
+           "name": "9/11 Memorial",
+           "location": {
+           "lat": 40.7110078,
+           "lon": -74.0131116
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832333434363832.jpg"
+           },
+           {
+           "name": "St Patrick's Old Cathedral",
+           "location": {
+           "lat": 40.7238118,
+           "lon": -73.9956647
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3837333030303439.jpg"
+           },
+           {
+           "name": "Madison Square Park",
+           "location": {
+           "lat": 40.7420371,
+           "lon": -73.9875635
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832383331313138.jpg"
+           },
+           {
+           "name": "Empire State Building",
+           "location": {
+           "lat": 40.748362,
+           "lon": -73.985635
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d38313138363933.jpg"
+           },
+           {
+           "name": "Times Square",
+           "location": {
+           "lat": 40.75773,
+           "lon": -73.985708
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832363131303234.jpg"
+           },
+           {
+           "name": "Rockefeller Center",
+           "location": {
+           "lat": 40.758875,
+           "lon": -73.979337
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832333930373931.jpg"
+           },
+           {
+           "name": "Dakota Building",
+           "location": {
+           "lat": 40.7765464,
+           "lon": -73.9763297
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832333435363837.jpg"
+           },
+           {
+           "name": "Central Park",
+           "location": {
+           "lat": 40.778218,
+           "lon": -73.969831
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d38313138383035.jpg"
+           },
+           {
+           "name": "5th Avenue",
+           "location": {
+           "lat": 40.772466,
+           "lon": -73.967021
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d383736323033.jpg"
+           }
+           ]
+  },
+  {
+  "name": "One Day Seattle",
+  "overview": "One day in Seattle",
+  "visibility": "private",
+  "destination": {
+  "name": "Seattle",
+  "country": "USA",
+  "city": "Seattle",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Space_Needle002.jpg"
+  },
+  "pois": [
+           {
+           "name": "Space Needle",
+           "location": {
+           "lat": 47.6205162,
+           "lon": -122.3493183
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d38313138343832.jpg"
+           },
+           {
+           "name": "Pike Place Market",
+           "location": {
+           "lat": 47.6101694,
+           "lon": -122.3428095
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d38313330393430.jpg"
+           },
+           {
+           "name": "Pioneer Square",
+           "location": {
+           "lat": 47.6000249,
+           "lon": -122.3319998
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d383636353736.jpg"
+           }
+           ]
+  },
+  {
+  "name": "Tokyo Center",
+  "overview": "One day in Tokyo",
+  "visibility": "private",
+  "destination": {
+  "name": "Tokyo",
+  "country": "Japan",
+  "city": "Tokyo",
+  "image_url": "https://cache-graphicslib.viator.com/graphicslib/thumbs674x446/2142/SITours/mt-fuji-day-trip-including-lake-ashi-sightseeing-cruise-from-tokyo-in-tokyo-115676.jpg"
+  },
+  "pois": [
+           {
+           "name": "Tsukiji Fish Market",
+           "location": {
+           "lat": 35.661389,
+           "lon": 139.769722,
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d3832363633383533.jpg"
+           },
+           {
+           "name": "Imperial Palace",
+           "location": {
+           "lat": 35.684753,
+           "lon": 139.752458
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d38313138383730.jpg"
+           },
+           {
+           "name": "Meiji Jingu Shrine",
+           "location": {
+           "lat": 35.676111,
+           "lon": 139.699167
+           },
+           "image_url": "https://media-cdn.sygictraveldata.com/photo/70x70/612664395a40232133447d33247d383737353930.jpg"
+           }
+           ]
+  }
+  ]

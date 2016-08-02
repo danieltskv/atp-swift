@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import GoogleMaps
+import SVProgressHUD
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyA3XcqE8Bu_JWbtOzJzMciiiYgN5oSf6C4")
+        
+        DataManager.sharedInstance.loadLocalData()
+        
+        SVProgressHUD.setDefaultMaskType(.Black)
+        
+        self.window!.tintColor = UIColor.lightGrayColor()
+        
+        let tabBarTitleTextAttributes: NSDictionary = [NSFontAttributeName: UIFont(name: "AvenirNext-Medium", size: 10)!]
+        UITabBarItem.appearance().setTitleTextAttributes(tabBarTitleTextAttributes as? [String: AnyObject], forState: .Normal)
+        
+        UINavigationBar.appearance().tintColor = UIColor.lightGrayColor()
+        
+        let navigationBarTitleTextAttributes: NSDictionary = [NSFontAttributeName: UIFont(name: "AvenirNext-Medium", size: 18)!, NSForegroundColorAttributeName: UIColor.darkTextColor()]
+        UINavigationBar.appearance().titleTextAttributes = navigationBarTitleTextAttributes as? [String: AnyObject]
+
         return true
     }
 
